@@ -8,7 +8,7 @@ tax_rate = 0.05
 total_bill = product_price * quantity
 total_including_tax = total_bill + (total_bill * tax_rate)
 print(f"Item Total:       {quantity}")
-print(f"Total bill:       {total_bill:.2f}")
-print(f"Tax Amount(5%):   {total_bill * tax_rate:.2f}")
-print(f"Grand Total:      {total_including_tax:.2f}")
+print(f"Total bill:       {total_bill:>5.2f}")
+print(f"Tax Amount(5%):   {total_bill * tax_rate:>5.2f}")
+print(f"Grand Total:      {total_including_tax:>5.2f}")
 print("*********************X************************")
