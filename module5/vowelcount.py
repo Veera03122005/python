@@ -1,0 +1,7 @@
+sentence = input("Enter a sentence: ").lower()
+print("Vowel counts in the sentence")
+print("A :", sentence.count('a'))
+print("E :", sentence.count('e'))
+print("I :", sentence.count('i'))
+print("O :", sentence.count('o'))
+print("U :", sentence.count('u'))
