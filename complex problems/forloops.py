@@ -13,6 +13,7 @@ for i in range(50, 0, -5):
 print("******************X******************")
 for i in range(1, 11, 1):
     print(i*i*i)
+print("**************X************************")
 total = 0
 for i in range(1, 11, 1):
     total += i
